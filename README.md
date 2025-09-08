@@ -162,7 +162,7 @@ As pattern intensity increases, signals become exponentially rarer—hence susta
 
 ---
 
-## 📊 Performance Evaluation & Settings
+## 📈 Performance Evaluation & Settings
 
 - **Approach** — Instead of parameter optimization, LMFO directly optimizes indicative patterns — signals that may appear meaningless individually but gain significance in context. Performance is evaluated at the pattern level, not on individual signals.
 
@@ -200,7 +200,7 @@ As pattern intensity increases, signals become exponentially rarer—hence susta
 
 ---
 
-## 📈 Applied Results — Pattern Recognition & Generalization
+## 🎯 Applied Results — Pattern Recognition & Generalization
 
 ### Pattern Recognition on the Validation Set  
 
