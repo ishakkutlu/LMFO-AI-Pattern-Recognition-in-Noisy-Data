@@ -100,7 +100,7 @@ Its modular and scalable architecture enables seamless adaptation across domains
 
 ---
 
-## 🧩 Real-World Impact
+## 📊 Real-World Impact
 
 <p align="center">
   <img src="media/diagrams/business-value.PNG"
