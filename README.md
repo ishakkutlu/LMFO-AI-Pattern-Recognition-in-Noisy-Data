@@ -76,6 +76,8 @@ Its modular and scalable architecture enables seamless adaptation across domains
 </p>
   </details>
 
+---
+
 ## ✨ Key Features
 
 - **Multi-Layer Architecture (L1 → L2 → L3)**  
@@ -96,6 +98,8 @@ Its modular and scalable architecture enables seamless adaptation across domains
 - **Validated, Reproducible Prototype**  
   Independently tested on limited, high-noise real-world datasets; delivers robust, generalizable results.
 
+---
+
 ## 🧩 Real-World Impact
 
 <p align="center">
@@ -115,6 +119,8 @@ Feature-agnostic, layered architecture that generalizes across domains:
 - **Cybersecurity (SOC / Threat Detection)** — Surfaces **8 critical signatures** from ~90 log types; grades threat levels by partial matches.
 - **Finance / Fraud Analytics** — Extracts a **7-indicator pattern** from ~80 risk indicators; scores transaction flows in real time by match level.
 - **Energy / Smart Grid** — Finds **10 critical patterns** from ~75 parameters; anticipates and mitigates regional failures in advance.
+
+---
 
 ## 🧪 Benchmark Environment & High-Noise Real-World Dataset
 
@@ -154,6 +160,8 @@ As pattern intensity increases, signals become exponentially rarer—hence susta
 </p>
 </details>
 
+---
+
 ## 📊 Performance Evaluation & Settings
 
 - **Approach** — Instead of parameter optimization, LMFO directly optimizes indicative patterns — signals that may appear meaningless individually but gain significance in context. Performance is evaluated at the pattern level, not on individual signals.
@@ -189,6 +197,8 @@ As pattern intensity increases, signals become exponentially rarer—hence susta
   3) verify extraction from random seeds
   4) check consistency across initial conditions
 - **Evaluation setup** — Multiple predefined configs; train on train, validate on val, test on test; results averaged across configs (metrics: **PRS**, **EPS**).
+
+---
 
 ## 📈 Applied Results — Pattern Recognition & Generalization
 
@@ -282,6 +292,8 @@ Pattern recognition performance of LMFO across different signal densities in the
   - **Random seeds:** 9/10 consistent & significant (**1,86 → 2,80**); 10/10 not significant on validation (1,46) but **7,36×** on test (90% level).  
 
 **Takeaway:** LMFO remains reliable under high noise and the **largest gains emerge as signal density decreases**. The **consistency** between validation and test sets demonstrates the algorithm’s ability to deliver **reliable and generalizable** results in challenging scenarios. Moreover, maintaining consistency across both different initialization conditions and varying signal densities strongly confirms LMFO’s **robustness**.
+
+---
 
 ## 📦 Reproduction Package
 
