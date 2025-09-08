@@ -320,6 +320,8 @@ This allows users to **verify the workflow end-to-end** (run → output → vali
 2. Run `RUN_LMFO.py`
 3. Open `control_file-validation.xlsm` → LMFO Tab → click **Decode Set** and then **Test Set**
 
+---
+
 ## Additional Context  
 
 For readers interested in the architectural foundations, intuition-driven mechanisms, and real-world applications of LMFO—in particular, its conceptual “artificial intuition” framework—check out this [detailed blog article](https://ishakkutlu.com/lmfo-ai-pattern-recognition-in-noisy-data-with-artificial-intuition/).  
